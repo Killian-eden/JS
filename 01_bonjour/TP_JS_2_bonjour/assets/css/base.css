@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+*:hover{
+    transition: all.2 ease 0s;
+}
+html{
+    /* UN SEUL REGLAGE ICI */
+    font-size: 62.5%;
+}
+body{ /* LES REGLAGES QUE L'ON VEUT SUR LES <p> DE LA PAGE => ON UTILISE L'HERITAGE */
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;/* unité relative = 16px ( unité absolue ) */
+    line-height: 1.6;/* ici on ne met pas d'unité = la hauteur d'interligne sera relative a la font-size ici x1.6 */
+}
+
+a, a:hover, a:visited, a:active{
+    text-decoration: none;
+}
+
+/* ON PASSE AUX CLASSE STANDARDISEES */
