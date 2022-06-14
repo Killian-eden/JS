@@ -3,7 +3,7 @@ function Stylo(color){
     this.niveau = 100;
     this.ouvert = false;
     this.ecrire = function (w) {
-        if (this.ouvert && this.niveau >= 0){
+        if (this.ouvert && this.niveau >= 0 && w.length <= this.niveau){
             document.write(w.fontcolor(this.couleur) + "<br>")
             this.niveau -= w.length;
         }else {

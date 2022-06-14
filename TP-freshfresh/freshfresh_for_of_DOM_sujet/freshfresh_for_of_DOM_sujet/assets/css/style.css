@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Capriola&family=Fascinate&display=swap');
+
+/* colors
+https://coolors.co/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6*/
+
+/* remoji for btn back to top
+https://getremoji.com/*/
+
+header{
+    padding-bottom: 2%;
+    background-color: #2EC4B6;
+    padding-top: 4%;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Fascinate', cursive;
+    font-size: 3rem;
+}
+#slogan{
+    background-color: #CBF3F0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 10%;
+}
+#slogan h2{
+    text-align: center;
+    margin: 0;
+    font-family: 'Fascinate', cursive;
+    color: #FF9F1C;
+    font-size: 2rem;
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+article{
+    width: 35%;
+    padding: 2%;
+    border: 3px solid #FFBF69;
+    margin-bottom: 3%;
+}
+img{
+    width: 100%;
+}
+article h2{
+    font-family: 'Bad Script';
+    text-align: center;
+    color: #FF9F1C;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Capriola';
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.conteneur{
+    overflow: hidden;
+    width: 100%;
+    height: 25vw;
+}
+article:nth-of-type(1) img{
+    width: 100%;
+    position: relative;
+    top: -20%;
+}
+article:nth-of-type(2) img{
+    width: 100%;
+    position: relative;
+    top: -22%;
+}
+article:nth-of-type(3) img{
+    width: 100%;
+    position: relative;
+    top: -21%;
+}
+article:nth-of-type(4) img, article:nth-of-type(5) img{
+    width: 100%;
+    position: relative;
+    top: -24%;
+}
+article:nth-of-type(6) img, article:nth-of-type(7) img, article:nth-of-type(8) img{
+    width: 155%;
+    position: relative;
+    left: -27%;
+}
+a{
+    background-color: #FFBF69;
+    display: block;
+    width: 5%;
+    height: 5vw;
+    position: fixed;
+    top: 84vh;
+    right: 4%;
+    border-radius: 50%;
+    text-decoration: none;
+}
+a span::after{
+    content: "♠️";
+    font-size: 7rem;
+}
+a span{
+    display: block;
+    text-align: center;
+    top: -23%;
+    position: relative;
+    color: black;
+}
+footer{
+    background-color: #2EC4B6;
+    padding-bottom: 1%;
+    padding-top: 5%;
+    margin-top: 10%;
+}
+small{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Fascinate', cursive;
+    font-size: 2rem;
+}
